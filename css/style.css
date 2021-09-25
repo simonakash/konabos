@@ -1,0 +1,69 @@
+/*------====================================
+All CUSTOM CSS
+====================================-------*/
+
+/*------------------font----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-mavenpro {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*------------------css----------------------*/
+img,
+video {
+    object-fit: cover;
+}
+
+#sec1 {
+    min-height: 725px;
+}
+
+.bg-ocean-blue-500 {
+    background-color: #5ec2d5;
+}
+.text-ocean-blue-400 {
+    color: #5ec2d5;
+}
+.bg-ocean-blue-600 {
+    background-color: #248594;
+}
+
+.text-ocean-blue-500 {
+    color: #248594;
+}
+.border-ocean-blue-500{
+    border-color: #5ec2d5;
+}
+.hover\:grayscale-0:hover{
+    --tw-grayscale: grayscale(0);
+}
+/*------------------media quary----------------------*/
+@media(min-width:1514px) {
+    .max-w-1245 {
+        max-width: 1245px;
+    }
+}
+
+@media(max-width:640px) {
+    #sec1 {
+        min-height: 400px !important;
+    }
+}
+
+@media (min-width: 1536px) {
+    .\32xl\:text-7xl {
+        font-size: 76px !important;
+    }
+}
