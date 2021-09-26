@@ -33,18 +33,31 @@ video {
 .bg-ocean-blue-500 {
     background-color: #5ec2d5;
 }
-.text-ocean-blue-400 {
-    color: #5ec2d5;
-}
 .bg-ocean-blue-600 {
     background-color: #248594;
 }
+.bg-ocean-blue-100 {
+    background-color: #d3e7ea;
+}
 
+.text-ocean-blue-400 {
+    color: #5ec2d5;
+}
 .text-ocean-blue-500 {
     color: #248594;
 }
+
+.border-ocean-blue-600{
+    border-color: #248594;
+}
 .border-ocean-blue-500{
     border-color: #5ec2d5;
+}
+.focus\:border-ocean-blue-500:focus{
+    border-color: #5ec2d5;
+}
+.focus\:placeholder-ocean-blue-500:focus::placeholder {
+    color: #5ec2d5;
 }
 .hover\:grayscale-0:hover{
     --tw-grayscale: grayscale(0);
